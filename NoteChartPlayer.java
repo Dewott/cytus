@@ -98,7 +98,7 @@ public class NoteChartPlayer {
 	LinkedList<Animation> animqueue = new LinkedList<Animation>();
 
 	public BufferedImage buf = new BufferedImage(WIDTH, HEIGHT,
-			BufferedImage.TYPE_INT_ARGB);
+			BufferedImage.TYPE_INT_RGB);
 	Graphics2D gg = null;
 	Image bg = null, line = null;
 	ComboSmallPop pop = null;
