@@ -9,6 +9,7 @@ import java.io.*;
 public class Main extends JFrame {
 	public Main(String str) throws Exception {
 		super("Cytus");
+		Locale.setDefault(Locale.CHINESE);
 		System.setProperty("sun.java2d.opengl", "true");
 		NoteChartPlayer p = new NoteChartPlayer(str, "hard");
 		setSize(NoteChartPlayer.WIDTH + 6, NoteChartPlayer.HEIGHT + 8);
